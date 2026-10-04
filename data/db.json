@@ -1,0 +1,1093 @@
+{
+  "admins": [
+    {
+      "id": "admin-1",
+      "username": "admin",
+      "password_hash": "$2b$10$xBpAE/LrlxxeQrax2K4PmuycICqh7TFSZEgIxGsh/QMNqd0bofBE.",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "last_login": "2026-10-02T12:58:06.903Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-electronics",
+      "name": "Electronics",
+      "slug": "electronics",
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "description": "High-performance audio, premium wearable tech, smart devices, and next-generation workspace gear.",
+      "status": "active",
+      "created_at": "2026-01-10T10:00:00.000Z",
+      "updated_at": "2026-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "cat-fashion",
+      "name": "Fashion & Apparel",
+      "slug": "fashion",
+      "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
+      "description": "Modern silhouettes, luxury leather accessories, athletic sneakers, and timeless wardrobe staples.",
+      "status": "active",
+      "created_at": "2026-01-10T10:00:00.000Z",
+      "updated_at": "2026-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "cat-home",
+      "name": "Home & Living",
+      "slug": "home-living",
+      "image_url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80",
+      "description": "Sculptural furniture, minimalist lighting, ergonomic desk setups, and cozy architectural comfort.",
+      "status": "active",
+      "created_at": "2026-01-10T10:00:00.000Z",
+      "updated_at": "2026-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "cat-beauty",
+      "name": "Beauty & Wellness",
+      "slug": "beauty",
+      "image_url": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80",
+      "description": "Clean skincare botanical formulations, nourishing serums, and mindful personal grooming essentials.",
+      "status": "active",
+      "created_at": "2026-01-10T10:00:00.000Z",
+      "updated_at": "2026-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "cat-gadgets",
+      "name": "Smart Gadgets",
+      "slug": "gadgets",
+      "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80",
+      "description": "Portable projectors, ergonomic mechanical input devices, and clever everyday productivity tools.",
+      "status": "active",
+      "created_at": "2026-01-10T10:00:00.000Z",
+      "updated_at": "2026-01-10T10:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-headphones-pro",
+      "name": "StudioPro Hybrid Active Noise Cancelling Headphones",
+      "slug": "studiopro-hybrid-anc-headphones",
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=900&q=80",
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=900&q=80"
+      ],
+      "short_description": "Studio acoustic reproduction with 45dB hybrid ANC, 40mm bio-cellulose drivers, and 50-hour quick-charge battery.",
+      "full_description": "Immerse yourself in pristine acoustic clarity with the StudioPro ANC Headphones. Designed for audio enthusiasts and frequent travelers alike, they combine custom-tuned 40mm bio-cellulose dynamic drivers with an advanced 4-microphone hybrid active noise-cancellation array that cancels up to 45dB of environmental ambient roar.\n\nCrafted with plush memory-foam earpads wrapped in breathable protein leather, the headphones ensure hours of fatigue-free listening. Seamless multipoint Bluetooth 5.3 allows instant switching between your laptop and phone, while the low-latency gaming mode ensures zero lag during streaming.",
+      "category_id": "cat-electronics",
+      "category_name": "Electronics",
+      "category_slug": "electronics",
+      "price": 14999,
+      "original_price": 19999,
+      "discount_percentage": 25,
+      "currency": "₹",
+      "amazon_affiliate_url": "https://www.amazon.in/dp/B08N5LNQCX/?tag=shopkart-21",
+      "featured": true,
+      "status": "active",
+      "click_count": 143,
+      "created_at": "2026-01-12T08:30:00.000Z",
+      "updated_at": "2026-10-02T12:58:15.639Z",
+      "specs": {
+        "Driver": "40mm Bio-Cellulose",
+        "Battery Life": "50 Hours (ANC Off) / 38 Hours (ANC On)",
+        "Connectivity": "Bluetooth 5.3 + 3.5mm AUX Cable",
+        "Weight": "252 grams",
+        "Charging": "USB-C Fast Charging (10 mins = 5 hrs)"
+      }
+    },
+    {
+      "id": "prod-smartwatch-ultra",
+      "name": "Apex Precision AMOLED GPS Smartwatch Pro",
+      "slug": "apex-precision-amoled-smartwatch",
+      "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=900&q=80"
+      ],
+      "short_description": "Military-grade titanium bezel, 1.43-inch Always-On sapphire AMOLED display, dual-band GPS, and 14-day battery.",
+      "full_description": "Engineered for adventurers, athletes, and modern professionals, the Apex Precision Smartwatch combines aerospace-grade titanium with an ultra-bright 1000-nit AMOLED sapphire crystal screen. Monitor 120+ athletic modalities with precise dual-band five-satellite GNSS positioning.\n\nContinuous biometric tracking provides real-time HRV heart rate variability, SpO2 blood oxygen, deep sleep cycle evaluation, and guided recovery metrics. Water-resistant up to 50 meters (5 ATM) with a tactile rotary crown.",
+      "category_id": "cat-electronics",
+      "category_name": "Electronics",
+      "category_slug": "electronics",
+      "price": 4999,
+      "original_price": 9999,
+      "discount_percentage": 50,
+      "currency": "₹",
+      "amazon_affiliate_url": "https://www.amazon.in/dp/B09G967TY5/?tag=shopkart-21",
+      "featured": true,
+      "status": "active",
+      "click_count": 98,
+      "created_at": "2026-01-15T09:15:00.000Z",
+      "updated_at": "2026-03-29T11:45:00.000Z",
+      "specs": {
+        "Display": "1.43\" AMOLED Sapphire 466x466 (Always-On)",
+        "Material": "Titanium Bezel + Fluororubber Strap",
+        "Sensors": "Dual-Band GNSS, SpO2, Optical Heart Rate, Barometer",
+        "Water Rating": "5 ATM (50m)",
+        "Battery": "Up to 14 Days on Typical Use"
+      }
+    },
+    {
+      "id": "prod-modern-armchair",
+      "name": "Nordic Sculptural Accent Armchair in Burnt Terracotta",
+      "slug": "nordic-sculptural-accent-armchair",
+      "image_url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=900&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=900&q=80"
+      ],
+      "short_description": "Architectural lounge armchair upholstered in textured wool bouclé with solid natural ashwood tapered legs.",
+      "full_description": "Make a striking visual statement in any living room or creative studio with the Nordic Sculptural Lounge Chair. Designed with organic curves that cradle the body, this piece pairs high-density resilience foam with custom woven bouclé fabric in an energetic burnt terracotta hue.\n\nThe framework is crafted from FSC-certified solid ash hardwood, hand-finished with an ultra-matte protective oil to highlight natural grain patterns. Built to stand the test of time while elevating your interior ambiance.",
+      "category_id": "cat-home",
+      "category_name": "Home & Living",
+      "category_slug": "home-living",
+      "price": 10999,
+      "original_price": 18999,
+      "discount_percentage": 42,
+      "currency": "₹",
+      "amazon_affiliate_url": "https://www.amazon.in/dp/B07W4D4X4Q/?tag=shopkart-21",
+      "featured": true,
+      "status": "active",
+      "click_count": 186,
+      "created_at": "2026-01-18T14:00:00.000Z",
+      "updated_at": "2026-03-30T16:10:00.000Z",
+      "specs": {
+        "Upholstery": "High-Durability Textured Bouclé (Dry Clean Only)",
+        "Frame": "Kiln-Dried Solid Ash Hardwood",
+        "Dimensions": "78cm W x 82cm D x 85cm H",
+        "Seat Height": "44cm",
+        "Max Weight": "150 kg"
+      }
+    },
+    {
+      "id": "prod-leather-tote",
+      "name": "Artisan Full-Grain Italian Leather Handcrafted Tote",
+      "slug": "artisan-full-grain-leather-tote",
+      "image_url": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=900&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=80"
+      ],
+      "short_description": "Vegetable-tanned Tuscan calfskin leather, hand-burnished edges, padded 14-inch laptop sleeve, and antique brass zips.",
+      "full_description": "Individually handcrafted by master artisans, this structured tote bag is cut from thick vegetable-tanned Italian calfskin that develops an exquisite natural patina with every passing year. Features a zippered central padded partition fitting laptops up to 14 inches, dedicated phone and key slots, and reinforced rolled handles.\n\nWeather-resistant wax coating protects against unexpected rain showers while keeping its refined silhouette intact for executive boardroom meetings and weekend city escapes.",
+      "category_id": "cat-fashion",
+      "category_name": "Fashion & Apparel",
+      "category_slug": "fashion",
+      "price": 6499,
+      "original_price": 8999,
+      "discount_percentage": 28,
+      "currency": "₹",
+      "amazon_affiliate_url": "https://www.amazon.in/dp/B08V5N4C7X/?tag=shopkart-21",
+      "featured": true,
+      "status": "active",
+      "click_count": 73,
+      "created_at": "2026-01-20T11:20:00.000Z",
+      "updated_at": "2026-03-27T09:30:00.000Z",
+      "specs": {
+        "Material": "100% Genuine Full-Grain Vegetable-Tanned Leather",
+        "Hardware": "Solid Brushed Antique Brass",
+        "Capacity": "Fits 14\" Laptops + Daily Essentials",
+        "Dimensions": "38cm L x 14cm W x 32cm H"
+      }
+    },
+    {
+      "id": "prod-running-sneakers",
+      "name": "AeroGlide Carbon-Plate Athletic Running Sneakers",
+      "slug": "aeroglide-carbon-plate-running-sneakers",
+      "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=900&q=80"
+      ],
+      "short_description": "Curved full-length carbon fiber propulsion plate, supercritical PEBA nitrogen foam midsole, and engineered mesh upper.",
+      "full_description": "Engineered to unlock maximum energy return and propel runners through 5K sprints and full marathons. The AeroGlide combines a spoon-shaped carbon-composite propulsion plate nestled inside high-rebound supercritical PEBA foam, reducing calf fatigue while giving a lively forward snap.\n\nThe single-layer breathable jacquard mesh upper provides locked-in heel support, while laser-siped continental rubber outsoles deliver confident traction on wet asphalt.",
+      "category_id": "cat-fashion",
+      "category_name": "Fashion & Apparel",
+      "category_slug": "fashion",
+      "price": 5799,
+      "original_price": 7999,
+      "discount_percentage": 27,
+      "currency": "₹",
+      "amazon_affiliate_url": "https://www.amazon.in/dp/B07L5P4R32/?tag=shopkart-21",
+      "featured": true,
+      "status": "active",
+      "click_count": 114,
+      "created_at": "2026-01-22T13:45:00.000Z",
+      "updated_at": "2026-03-29T15:20:00.000Z",
+      "specs": {
+        "Midsole": "Supercritical PEBA Foam + Full Carbon Plate",
+        "Drop": "8mm Heel-to-Toe Offset",
+        "Weight": "215g (Size 9)",
+        "Closure": "Reflective Asymmetrical Racing Laces"
+      }
+    },
+    {
+      "id": "prod-radiance-serum",
+      "name": "Botanical Multi-Peptide Radiant Glow Face Serum",
+      "slug": "botanical-multi-peptide-radiant-glow-serum",
+      "image_url": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=900&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1608248597359-25f0a8ea2ba6?auto=format&fit=crop&w=900&q=80"
+      ],
+      "short_description": "10% Niacinamide, copper tripeptide-1, fermented green tea water, and triple molecular weight hyaluronic acid.",
+      "full_description": "Restore luminous firmness and balance your complexion with this clinical-grade botanical concentrate. Blending copper peptides with 10% pure niacinamide and bio-fermented green tea extract, this silky serum accelerates cellular turnover while smoothing fine lines and reducing post-blemish redness.\n\nFormulated without synthetic fragrances, parabens, or mineral oils. Packaged in UV-protective amber dropper bottles to preserve potent active botanical antioxidants until the final drop.",
+      "category_id": "cat-beauty",
+      "category_name": "Beauty & Wellness",
+      "category_slug": "beauty",
+      "price": 1899,
+      "original_price": 2499,
+      "discount_percentage": 24,
+      "currency": "₹",
+      "amazon_affiliate_url": "https://www.amazon.in/dp/B08C4Z8X39/?tag=shopkart-21",
+      "featured": false,
+      "status": "active",
+      "click_count": 52,
+      "created_at": "2026-01-25T16:10:00.000Z",
+      "updated_at": "2026-03-25T10:00:00.000Z",
+      "specs": {
+        "Volume": "50ml / 1.7 fl oz",
+        "Skin Type": "All Skin Types (Dermatologist Tested)",
+        "KeyActives": "10% Niacinamide, Copper Peptides, Hyaluronic Acid",
+        "Ethics": "Cruelty-Free, Vegan, Non-Comedogenic"
+      }
+    },
+    {
+      "id": "prod-wireless-keyboard",
+      "name": "Apex Low-Profile Mechanical Wireless Keyboard",
+      "slug": "apex-low-profile-mechanical-keyboard",
+      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=900&q=80"
+      ],
+      "short_description": "CNC anodized aluminum body, hot-swappable Gateron low-profile red switches, 2.4GHz + BT 5.1, and PBT shine-through keycaps.",
+      "full_description": "Elevate your desk ergonomics with an ultra-thin 18mm mechanical deck crafted from precision aircraft aluminum. Pre-lubed low-profile linear switches provide whisper-quiet acoustic feedback with rapid tactile actuation perfect for marathon typing or competitive gaming.\n\nConnect up to 4 devices simultaneously via Bluetooth 5.1, 2.4G low-latency dongle, or USB-C wired mode. Compatible with macOS, Windows, iOS, and Linux with physical toggle switches.",
+      "category_id": "cat-gadgets",
+      "category_name": "Smart Gadgets",
+      "category_slug": "gadgets",
+      "price": 7499,
+      "original_price": 9999,
+      "discount_percentage": 25,
+      "currency": "₹",
+      "amazon_affiliate_url": "https://www.amazon.in/dp/B085V86Q64/?tag=shopkart-21",
+      "featured": false,
+      "status": "active",
+      "click_count": 67,
+      "created_at": "2026-01-28T09:00:00.000Z",
+      "updated_at": "2026-03-26T18:15:00.000Z",
+      "specs": {
+        "Layout": "75% Compact (84 Keys)",
+        "Switches": "Gateron Low-Profile Linear Red (Hot-Swappable)",
+        "Battery": "4000mAh (Up to 180 hours without backlight)",
+        "Chassis": "CNC Machined Anodized Aluminum"
+      }
+    },
+    {
+      "id": "prod-portable-projector",
+      "name": "CinemaBeam 4K HDR Smart Portable Laser Projector",
+      "slug": "cinemabeam-4k-hdr-portable-projector",
+      "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=80",
+      "additional_images": [
+        "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=900&q=80"
+      ],
+      "short_description": "800 ANSI Lumens, instant ToF auto-focus & omnidirectional keystone, dual Harman Kardon acoustic chambers, and built-in Android TV.",
+      "full_description": "Transform any bedroom wall, living room ceiling, or backyard camping retreat into a 150-inch private cinema. Utilizing advanced ALPD laser technology, the CinemaBeam delivers vivid color saturation and 800 ANSI lumens of true brightness with native 1080p and 4K HDR decoding.\n\nInstant Time-of-Flight sensors calculate surface distance in under a second to execute seamless auto-focus and obstacle avoidance without human intervention. Integrated Harman Kardon speakers provide rich Dolby Audio sound.",
+      "category_id": "cat-gadgets",
+      "category_name": "Smart Gadgets",
+      "category_slug": "gadgets",
+      "price": 21999,
+      "original_price": 29999,
+      "discount_percentage": 26,
+      "currency": "₹",
+      "amazon_affiliate_url": "https://www.amazon.in/dp/B093L2J3J7/?tag=shopkart-21",
+      "featured": true,
+      "status": "active",
+      "click_count": 89,
+      "created_at": "2026-01-30T15:30:00.000Z",
+      "updated_at": "2026-03-30T10:10:00.000Z",
+      "specs": {
+        "Brightness": "800 ANSI Lumens ALPD Laser",
+        "Resolution": "FHD 1080p (Supports 4K HDR10 Decoding)",
+        "Projection Size": "40\" to 150\" Diagonal",
+        "Sound": "Dual 8W Harman Kardon Dolby Audio",
+        "OS": "Android TV with Netflix, Prime Video, YouTube"
+      }
+    }
+  ],
+  "hero_slides": [
+    {
+      "id": "slide-1",
+      "image_url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=85",
+      "title": "Upgrade Your Shopping Experience",
+      "description": "Quality Products. Great Prices. Happier You. Explore our handpicked collection of useful, trending, and premium products.",
+      "cta_text": "Shop Now",
+      "cta_url": "/shop",
+      "display_order": 1,
+      "status": "active",
+      "created_at": "2026-01-10T10:00:00.000Z",
+      "updated_at": "2026-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "slide-2",
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1600&q=85",
+      "title": "Modern Living For a Better Tomorrow",
+      "description": "Handcrafted furniture, studio audio, and smart workspace essentials curated for discerning tastemakers.",
+      "cta_text": "Explore Categories",
+      "cta_url": "/categories",
+      "display_order": 2,
+      "status": "active",
+      "created_at": "2026-01-10T10:00:00.000Z",
+      "updated_at": "2026-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "slide-3",
+      "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1600&q=85",
+      "title": "Best Deals On Top Brands",
+      "description": "Shop more, save more with verified Amazon partner discounts and authentic user-tested recommendations.",
+      "cta_text": "View Featured Deals",
+      "cta_url": "/shop?featured=true",
+      "display_order": 3,
+      "status": "active",
+      "created_at": "2026-01-10T10:00:00.000Z",
+      "updated_at": "2026-01-10T10:00:00.000Z"
+    }
+  ],
+  "affiliate_clicks": [
+    {
+      "id": "click-1790945895640-cjaeu",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid Active Noise Cancelling Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-10-02T12:58:15.640Z",
+      "referrer": "Direct",
+      "ip_hash": "12ca17b49a"
+    },
+    {
+      "id": "click-1",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-09-19T16:38:48.214Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-nnw9jc"
+    },
+    {
+      "id": "click-2",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid ANC Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-09-20T05:09:10.881Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-wgikw4"
+    },
+    {
+      "id": "click-3",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid ANC Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-09-20T17:23:21.901Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-hfrp3j"
+    },
+    {
+      "id": "click-4",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-09-20T23:45:10.873Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-wfinsb"
+    },
+    {
+      "id": "click-5",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid ANC Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-09-21T03:15:43.768Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-klrq3c"
+    },
+    {
+      "id": "click-6",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-22T08:39:19.811Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-o5ydiw"
+    },
+    {
+      "id": "click-7",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-22T00:36:43.431Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-kkmafp"
+    },
+    {
+      "id": "click-8",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-21T17:03:49.430Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-myabkt"
+    },
+    {
+      "id": "click-9",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-09-21T14:07:35.451Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-tmhkzx"
+    },
+    {
+      "id": "click-10",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-22T02:53:42.180Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-02j5wa"
+    },
+    {
+      "id": "click-11",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid ANC Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-09-21T21:21:12.367Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-jq713t"
+    },
+    {
+      "id": "click-12",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-09-22T02:46:14.716Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-ytd90d"
+    },
+    {
+      "id": "click-13",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-23T01:52:28.045Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-qoui4j"
+    },
+    {
+      "id": "click-14",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-23T07:40:49.661Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-1j0hbj"
+    },
+    {
+      "id": "click-15",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-09-22T22:02:20.748Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-t9ga58"
+    },
+    {
+      "id": "click-16",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-23T08:44:08.758Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-wm3mue"
+    },
+    {
+      "id": "click-17",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-09-23T03:21:06.495Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-qcbpib"
+    },
+    {
+      "id": "click-18",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-09-22T22:07:16.312Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-bsrz0s"
+    },
+    {
+      "id": "click-19",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-09-23T03:57:49.179Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-yzuual"
+    },
+    {
+      "id": "click-20",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-09-23T00:15:29.885Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-lw580g"
+    },
+    {
+      "id": "click-21",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-09-22T18:13:17.083Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-4fev95"
+    },
+    {
+      "id": "click-22",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-23T18:38:21.833Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-e84gju"
+    },
+    {
+      "id": "click-23",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-09-23T18:41:56.231Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-8bt567"
+    },
+    {
+      "id": "click-24",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-24T05:16:28.070Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-b9byun"
+    },
+    {
+      "id": "click-25",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-09-24T02:27:59.238Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-n4ge4g"
+    },
+    {
+      "id": "click-26",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-09-23T20:31:19.324Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-3fdryr"
+    },
+    {
+      "id": "click-27",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-09-23T17:53:02.134Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-k571bf"
+    },
+    {
+      "id": "click-28",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-09-24T22:14:08.615Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-vo35bv"
+    },
+    {
+      "id": "click-29",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid ANC Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-09-25T04:29:08.708Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-v9wv0p"
+    },
+    {
+      "id": "click-30",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-09-26T06:32:06.247Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-xn7kl0"
+    },
+    {
+      "id": "click-31",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-09-25T15:16:15.480Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-1vfxif"
+    },
+    {
+      "id": "click-32",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-09-26T17:32:54.643Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-w4cjai"
+    },
+    {
+      "id": "click-33",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-27T07:15:41.119Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-2o22xx"
+    },
+    {
+      "id": "click-34",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-09-26T22:35:56.926Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-sb5azb"
+    },
+    {
+      "id": "click-35",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-09-27T04:26:39.060Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-25cj28"
+    },
+    {
+      "id": "click-36",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-09-26T21:27:07.548Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-t1j3n8"
+    },
+    {
+      "id": "click-37",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-26T16:16:19.978Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-i9iup2"
+    },
+    {
+      "id": "click-38",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid ANC Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-09-28T04:27:47.430Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-ioiqxj"
+    },
+    {
+      "id": "click-39",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-09-28T08:04:55.347Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-7smrvx"
+    },
+    {
+      "id": "click-40",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-27T13:57:29.987Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-lmk0sv"
+    },
+    {
+      "id": "click-41",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-28T06:33:20.555Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-2tjgkn"
+    },
+    {
+      "id": "click-42",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-09-28T04:26:30.851Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-g4wkkk"
+    },
+    {
+      "id": "click-43",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-09-27T21:51:11.829Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-gztfyq"
+    },
+    {
+      "id": "click-44",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid ANC Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-09-27T23:35:18.980Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-sxy5ii"
+    },
+    {
+      "id": "click-45",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-09-28T07:19:53.886Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-to20dd"
+    },
+    {
+      "id": "click-46",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid ANC Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-09-28T06:01:34.529Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-n0fp1l"
+    },
+    {
+      "id": "click-47",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-09-29T02:40:43.478Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-sdsvjf"
+    },
+    {
+      "id": "click-48",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid ANC Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-09-29T06:51:30.107Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-ig3f81"
+    },
+    {
+      "id": "click-49",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-09-28T18:54:50.634Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-rzdhk0"
+    },
+    {
+      "id": "click-50",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-09-28T20:57:28.623Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-5f0i76"
+    },
+    {
+      "id": "click-51",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-09-29T01:44:50.854Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-ynevze"
+    },
+    {
+      "id": "click-52",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-09-28T18:05:26.581Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-lpmk6u"
+    },
+    {
+      "id": "click-53",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-09-29T00:46:44.704Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-gkumn0"
+    },
+    {
+      "id": "click-54",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-09-30T01:08:45.033Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-13mrjl"
+    },
+    {
+      "id": "click-55",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-09-29T15:26:56.732Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-rv2iyr"
+    },
+    {
+      "id": "click-56",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-09-29T21:18:45.528Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-nmcs7l"
+    },
+    {
+      "id": "click-57",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-09-30T21:50:23.905Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-zektiq"
+    },
+    {
+      "id": "click-58",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-10-01T04:22:43.916Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-831tpd"
+    },
+    {
+      "id": "click-59",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-10-01T16:25:13.765Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-kfxh34"
+    },
+    {
+      "id": "click-60",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-10-01T20:45:32.450Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-xrbmq3"
+    },
+    {
+      "id": "click-61",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-10-01T14:54:49.923Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-yufnup"
+    },
+    {
+      "id": "click-62",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-10-01T20:04:11.351Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-3z7ax8"
+    },
+    {
+      "id": "click-63",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid ANC Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-10-01T20:55:26.023Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-hl2js4"
+    },
+    {
+      "id": "click-64",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-10-02T20:42:22.228Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-zqoz7t"
+    },
+    {
+      "id": "click-65",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-10-03T07:13:29.195Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-aqoekp"
+    },
+    {
+      "id": "click-66",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-10-03T07:22:50.313Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-zzp7ay"
+    },
+    {
+      "id": "click-67",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-10-02T21:59:29.511Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-rq9l0g"
+    },
+    {
+      "id": "click-68",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-10-02T21:13:57.123Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-eevxqb"
+    },
+    {
+      "id": "click-69",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-10-02T18:44:48.072Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-i7yl1q"
+    },
+    {
+      "id": "click-70",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-10-03T06:53:28.694Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-3w8gzv"
+    },
+    {
+      "id": "click-71",
+      "product_id": "prod-modern-armchair",
+      "product_name": "Nordic Sculptural Accent Armchair",
+      "product_slug": "nordic-sculptural-accent-armchair",
+      "clicked_at": "2026-10-02T12:59:48.522Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-5rqxt6"
+    },
+    {
+      "id": "click-72",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-10-03T04:54:56.682Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-zjijny"
+    },
+    {
+      "id": "click-73",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid ANC Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-10-03T04:53:56.540Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-refibr"
+    },
+    {
+      "id": "click-74",
+      "product_id": "prod-headphones-pro",
+      "product_name": "StudioPro Hybrid ANC Headphones",
+      "product_slug": "studiopro-hybrid-anc-headphones",
+      "clicked_at": "2026-10-02T22:01:00.109Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-ytvdxq"
+    },
+    {
+      "id": "click-75",
+      "product_id": "prod-leather-tote",
+      "product_name": "Artisan Full-Grain Italian Leather Tote",
+      "product_slug": "artisan-full-grain-leather-tote",
+      "clicked_at": "2026-10-02T20:16:00.873Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-d4i60v"
+    },
+    {
+      "id": "click-76",
+      "product_id": "prod-running-sneakers",
+      "product_name": "AeroGlide Carbon-Plate Running Sneakers",
+      "product_slug": "aeroglide-carbon-plate-running-sneakers",
+      "clicked_at": "2026-10-02T17:30:52.734Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-d1fsb7"
+    },
+    {
+      "id": "click-77",
+      "product_id": "prod-smartwatch-ultra",
+      "product_name": "Apex Precision AMOLED Smartwatch Pro",
+      "product_slug": "apex-precision-amoled-smartwatch",
+      "clicked_at": "2026-10-02T16:28:39.337Z",
+      "referrer": "Direct / Storefront",
+      "ip_hash": "anon-lzxlar"
+    }
+  ],
+  "contact_messages": [
+    {
+      "id": "msg-1",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@example.com",
+      "phone": "+91 98765 43210",
+      "message": "Hello ShopKart team, can you feature more ergonomic work-from-home desk accessories? Loved the studio headphones recommendation!",
+      "is_read": true,
+      "created_at": "2026-03-24T11:20:00.000Z"
+    },
+    {
+      "id": "msg-2",
+      "name": "Priya Mehta",
+      "email": "priya.m@example.com",
+      "phone": "+91 98220 11234",
+      "message": "I purchased the terracotta accent armchair through your Amazon affiliate link and it arrived in 2 days. The quality is phenomenal. Thank you for the detailed specs!",
+      "is_read": false,
+      "created_at": "2026-03-31T14:45:00.000Z"
+    }
+  ],
+  "site_settings": {
+    "id": "site-settings-1",
+    "brand_name": "ShopKart",
+    "logo_url": "",
+    "favicon_url": "",
+    "website_description": "Curated premium affiliate shopping storefront and deals portal. Discover trending electronics, fashion, home essentials, and lifestyle accessories handpicked for quality and value.",
+    "contact_email": "support@shopkart.store",
+    "contact_phone": "+91 6355776735",
+    "social_links": {
+      "twitter": "https://twitter.com/shopkart",
+      "instagram": "https://instagram.com/shopkart",
+      "facebook": "https://facebook.com/shopkart",
+      "youtube": "https://youtube.com/@shopkart"
+    },
+    "footer_text": "© 2026 ShopKart Inc. All rights reserved. Built with love for smart shoppers worldwide.",
+    "seo_title": "ShopKart | Curated Deals & Premium Affiliate Store",
+    "seo_description": "Shop the finest hand-curated trending electronics, fashion, home living, and beauty essentials with verified Amazon affiliate deals and instant redirects.",
+    "amazon_affiliate_tag": "shopkart-21",
+    "currency": "₹",
+    "updated_at": "2026-10-02T12:58:06.902Z"
+  }
+}

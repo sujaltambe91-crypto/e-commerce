@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Global Design System Palette */
+    --color-primary: #2563EB;     /* Electric Blue */
+    --color-secondary: #7C3AED;   /* Purple */
+    --color-accent: #06B6D4;      /* Cyan */
+    --color-success: #22C55E;     /* Green */
+    --color-sale: #EF4444;        /* Red / Coral */
+    --color-warning: #F59E0B;     /* Amber */
+
+    --color-bg-main: #07111F;     /* Deep Navy */
+    --color-bg-secondary: #0D1B2A;
+    --color-bg-card: #111F33;
+
+    --color-text-main: #FFFFFF;
+    --color-text-secondary: #A7B4C7;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #07111F;
+    color: #FFFFFF;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom Design Tokens */
+.bg-deep-navy {
+  background-color: #07111F;
+}
+
+.bg-secondary-navy {
+  background-color: #0D1B2A;
+}
+
+.bg-card-navy {
+  background-color: #111F33;
+}
+
+.text-secondary-muted {
+  color: #A7B4C7;
+}
+
+.border-neon-blue {
+  border-color: rgba(37, 99, 235, 0.4);
+}
+
+.hover-glow-purple:hover {
+  box-shadow: 0 0 25px rgba(124, 58, 237, 0.35);
+  border-color: #7C3AED;
+}
+
+/* Glass Panels with Deep Navy Base */
+.glass-panel {
+  background: rgba(17, 31, 51, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(37, 99, 235, 0.18);
+}
+
+.glass-card {
+  background: #111F33;
+  border: 1px solid rgba(37, 99, 235, 0.15);
+}
+
+.glass-card:hover {
+  border-color: #06B6D4;
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.2);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07111F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563EB;
+}
+
+/* Futuristic Glow Utilities */
+.glow-blue {
+  box-shadow: 0 0 25px rgba(37, 99, 235, 0.35);
+}
+
+.glow-purple {
+  box-shadow: 0 0 25px rgba(124, 58, 237, 0.35);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.35);
+}
+
+.glow-gradient {
+  box-shadow: 0 0 30px rgba(37, 99, 235, 0.25), 0 0 45px rgba(124, 58, 237, 0.2);
+}
+

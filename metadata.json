@@ -1,0 +1,8 @@
+{
+  "name": "ShopKart - Premium Affiliate E-Commerce Platform",
+  "description": "Curated premium affiliate shopping storefront and administrative control center with real-time click tracking, category browsing, and catalog management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
